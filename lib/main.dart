@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_medical_ui/pages/started.dart';
+import 'package:flutter_medical_ui/pages/inicio.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,11 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Act 1 Flutter',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const StartedPage(),
+      debugShowCheckedModeBanner: false,
+      home: const InicioPag(),
     );
   }
 }
